@@ -72,7 +72,7 @@ const float e96[] =
 
 void AddStandardValues(set<float> *db, const float *values, int n)
 {
-	for (int i = 0; i < sizeof(e12) / sizeof(*e12); i++)
+	for (int i = 0; i < n; i++)
 	{
 		db->emplace(values[i]);
 		db->emplace(values[i] * 1000);
