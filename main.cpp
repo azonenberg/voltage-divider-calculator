@@ -294,7 +294,7 @@ int main(int argc, char* argv[])
 			//Find the division ratio for the current guess
 			float guess;
 			if(goalMode == GOAL_DIVIDE)
-				guess = r2 / (r1 + r2);
+				guess = (r1 + r2) / r2;
 			else //if(goalMode == GOAL_RATIO)
 				guess = r1 / r2;
 
@@ -325,7 +325,7 @@ int main(int argc, char* argv[])
 
 	if(goalMode == GOAL_DIVIDE)
 	{
-		float ratio = closestR2 / (closestR1 + closestR2);
+		float ratio = (closestR1 + closestR2) / closestR2;
 		printf("    Goal:     divide by %7.3f\n", goal);
 		printf("    Achieved: divide by %7.3f (%.1f %% error)\n", ratio, (ratio - goal) * 100 / goal);
 	}
