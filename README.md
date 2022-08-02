@@ -19,7 +19,7 @@ The goal argument specifies what the relationship of the divider resistors to ea
 supported:
 
 `--divide NNN`: specifies a division of NNN. This can be expressed mathematically as finding solutions to the equation
-$ NNN = R2 / (R1 + R2) $.
+$NNN = R2 / (R1 + R2)$.
 
 For example, R1 = R2 for any resistor value in the database is a valid solution given a goal of `--divide 0.5`.
 
