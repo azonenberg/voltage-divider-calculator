@@ -48,3 +48,15 @@ Constraint arguments specify requirements that a valid solution must satisfy. Mo
 
 The database file is a list of resistor values which are available for use. This is an ASCII text file with one
 resistor value per line. Values may use "k" or "M" suffixes, for example "1M" or "4.7k".
+
+# Standard values
+
+Instead of (or in addition to) a database file, `vdcalc` may use standard E6-96 resistor values. These include
+values from single digit ohms through megaohms, e.g. the E6 set includes 2.2, 2.2k, 22k, 220k and 2M values.
+These sets are available via the following command-line options:
+
+`--e6`: include the E6 standard resistor values (20% tolerance)
+`--e12`: include the E12 standard resistor values (10% tolerance)
+`--e24`: include the E24 standard resistor values (5% tolerance)
+`--e48`: include the E48 standard resistor values (2% tolerance)
+`--e96`: include the E96 standard resistor values (1% tolerance)
