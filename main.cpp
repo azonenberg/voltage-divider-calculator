@@ -369,11 +369,11 @@ float ParseResistance(const char* str)
 void PrintResistance(const char* name, float value)
 {
 	if(value > 1e6)
-		printf("    %5s = %.2f MΩ\n", name, value * 1e-6);
+		printf("    %5s = %6.2f MΩ\n", name, value * 1e-6);
 	else if(value > 1e3)
-		printf("    %5s = %.2f kΩ\n", name, value * 1e-3);
+		printf("    %5s = %6.2f kΩ\n", name, value * 1e-3);
 	else
-		printf("    %5s = %.2f Ω\n", name, value);
+		printf("    %5s = %6.2f Ω\n", name, value);
 }
 
 void ShowHelp()
