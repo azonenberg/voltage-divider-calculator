@@ -40,9 +40,9 @@ Constraint arguments specify requirements that a valid solution must satisfy. Mo
 
 `--min-r1 NNN`: the value of R1 cannot be less than NNN.
 
-`--max-r2 NNN`: the value of R1 cannot be greater than NNN.
+`--max-r2 NNN`: the value of R2 cannot be greater than NNN.
 
-`--min-r2 NNN`: the value of R1 cannot be less than NNN.
+`--min-r2 NNN`: the value of R2 cannot be less than NNN.
 
 # Database file
 
