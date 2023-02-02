@@ -1,0 +1,10 @@
+./vdcalc --e12  --divide 3
+
+Best solution:
+       R1 =   6.80 kΩ
+       R2 =   3.30 kΩ
+      Sum =  10.10 kΩ
+
+    Goal:     divide by   3.000
+    Achieved: divide by   3.061 (2.0 % error)
+
