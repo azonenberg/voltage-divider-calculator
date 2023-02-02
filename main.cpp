@@ -440,7 +440,7 @@ void ShowHelp()
 	printf("\n");
 	printf("Database of legal component values (must specify one or more):\n");
 	printf("    --database file.txt: read parts from an inventory file containing one resistor value per line\n");
-	printf("    --e6, --e12, --e24, --e48, --e96: use standard 20, 10, 5, 2, or 1% resistor values\n");
+	printf("    --e6, --e12, --e24, --e48, --e96: use standard 20, 10, 5, 2, or 1%% resistor values\n");
 	printf("\n");
 	printf("Goal (must specify exactly one):\n");
 	printf("    --divide NNN: divide by NNN\n");
